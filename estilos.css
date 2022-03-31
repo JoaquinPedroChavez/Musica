@@ -1,0 +1,35 @@
+body 
+{
+	background: #B6DEE7;
+	font-family: Arial, Comic Sans;
+	padding: 10px;
+	margin:10px;
+	font-family: verdana;
+}
+header
+{
+	background: #2B78A2;
+	padding: 10px;
+}
+section
+{
+	background: #6EA8C9;
+	padding: 20px;
+}
+h1
+{
+	color: #F2CDAF;
+}
+h2
+{
+	color: #F2CDAF;
+}
+h3
+{
+	color: #F2CDAF;
+}
+p
+{
+	color: #F9E2CF;
+}
+
