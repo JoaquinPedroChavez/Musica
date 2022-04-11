@@ -13,6 +13,7 @@ body
 	padding: 30px;
 	border: 30px;
 	font-family: "Heebo", sans-serif;
+	text-decoration: none;
 }
 
 section
@@ -25,15 +26,12 @@ ul
 	padding: 20px;
 	text-decoration: none;
 	overflow: hidden;
-	color: #E0BBE4;
 }
 
 li
 {
 	text-decoration: none;
 	overflow: hidden;
-	display: grid;
-	color: #E0BBE4;
 }
 
 header
@@ -44,6 +42,13 @@ header
  	border: 3px;
   	margin: 10px;
   	font-size: 40px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #957DAD;
+
 }
 
 h2
@@ -70,7 +75,6 @@ img
     border: 10px ;
     border-radius: 20px;
     padding: 10px;
-
 }
 
 article
@@ -117,3 +121,119 @@ article
   	padding: 10px;
 }
 
+
+@media screen and (max-width: 600px) {
+
+body
+{
+	background-color: #FFDFD3;
+	padding: 30px;
+	border: 30px;
+	font-family: "Heebo", sans-serif;
+	text-decoration: none;
+}
+
+section
+{
+	padding: 30px;
+}
+
+ul
+{
+	padding: 20px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+li
+{
+	text-decoration: none;
+	overflow: hidden;
+}
+
+header
+{
+	color: #957DAD;
+  	text-align: center;
+  	padding: 5px 15px;
+ 	border: 3px;
+  	margin: 10px;
+  	font-size: 40px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #957DAD;
+}
+
+h2
+{
+	font-size: 35px
+}
+
+h3
+{
+	font-size: 27.5px;
+}
+
+p
+{
+	font-size: 20px ;
+	text-align: justify;
+	color: #D291BC;
+}
+
+img
+{
+    display:  block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 10px ;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+article
+{
+	background-color: #D291BC;
+	text-align: center;
+	color: #f2f2f2;
+}
+
+.menu 
+{
+  	overflow: hidden;
+  	background-color: #957DAD;
+  	margin: 10px;
+}
+
+
+.menu a 
+{
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+}
+
+
+.menu a:hover 
+{
+  	background-color: #ddd;
+  	color: rgb(20, 19, 5);
+}
+
+.video
+{  
+  	overflow: hidden;
+  	padding-top: 56.25%; 
+  	display:  block;
+  	margin-left: auto;
+  	margin-right:auto;
+  	border-radius: 20px;
+  	padding: 10px;
+}
