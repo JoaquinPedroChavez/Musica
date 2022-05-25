@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Edad de tu perro</title>
+	<style type="text/css">
+
+		body
+		{
+			background: #FEC8D8;
+		}
+		 h1
+		 {
+		  background-color: #957DAD;
+		  color: #E0BBE4;
+		  text-align: center;
+		  padding: 10px;
+		 }
+		 .res
+		 {
+		  padding: 15px;
+		  margin: 5px;
+		  text-align: center;
+		  color: #D291BC;
+		  font-size: 24px;
+		 }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Calcula la edad de tu perro</h1>
+	</header>
+	<section class="res">
+		<h2>Cual es el nombre de tu perro?</h2>
+		<input type="text" name="a" id="name">
+		<br><br>
+		<h2>Cuantos años humanos tiene tu perro?</h2>
+		<input type="number" name="0" id="edad">
+		<br><br>
+		<button id="btn1">Formula antigua</button>
+		<button id="btn2">Formula nueva</button>
+		<br><br>
+	</section>
+	<div id="ay"></div>
+	<script>
+
+		var q=document.getElementById('btn1');
+		q.addEventListener('click',age7);
+		var g=document.getElementById('btn2');
+		g.addEventListener('click',age);
+
+		function age7()
+		{
+			var a=document.getElementById('name').value
+			var b=parseInt(document.getElementById('edad').value);
+				var f=a
+				var j=b*7
+				var k=j.toFixed();
+
+			document.getElementById("ay").innerHTML = "La edad de "+f+" es "+k+" años."
+		}
+
+		function age()
+		{
+			var a=document.getElementById('name').value
+			var b=parseInt(document.getElementById('edad').value);
+				var f=a
+				var j=16*Math.log(b)+31
+				var k=j.toFixed();
+
+			document.getElementById("ay").innerHTML = "La edad de "+f+" es "+k+" años."
+		}
+	</script>
+</body>
+</html>
